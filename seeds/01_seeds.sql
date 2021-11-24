@@ -9,9 +9,9 @@ VALUES (1, 'Lakehouse Cottage', 'description', 'https://images.pexels.com/photos
 ;
 
 INSERT INTO reservations (start_date, end_date, property_id, guest_id)
-VALUES (2021-11-01, 2021-11-05, 2, 3),
-(2021-11-12, 2021-11-17, 1, 2),
-(2021-11-15, 2021-11-20, 3, 1);
+VALUES ('2021-11-01', '2021-11-05', 2, 3),
+('2021-11-12', '2021-11-17', 1, 2),
+('2021-11-15', '2021-11-20', 3, 1);
 
 INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message)
 VALUES (2, 1, 3, 4, 'message goes here'),
